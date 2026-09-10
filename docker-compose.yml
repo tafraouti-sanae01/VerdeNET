@@ -57,6 +57,7 @@ services:
       - db
       - app
 
+  #comment for nothing 
   # Nginx for Backend (serves API)
   backend-web:
     image: nginx:alpine
